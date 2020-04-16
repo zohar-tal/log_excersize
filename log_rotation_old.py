@@ -3,7 +3,7 @@ import os
 import shutil
 from datetime import datetime
 
-from logRotation.log_conf import all_files_name_size, file_name_count, dir_path, names, task_files, error_files, \
+from logRotation.log_conf_old import all_files_name_size, file_name_count, dir_path, names, task_files, error_files, \
     debug_files, \
     max_backup_file_count, file_max_size_kb
 
